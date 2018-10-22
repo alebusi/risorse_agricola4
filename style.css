@@ -1,0 +1,22 @@
+.wrapper {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.risorsa {
+    display: inline-block;
+    width: 30vw;
+    padding: 5vh 0;
+    text-align: center;
+    font-size: 30vh;
+    font-weight: bold;
+}
+
+.button {
+    position: fixed;
+    width: 6vw;
+    left: 90vw;
+    top: 44vh;
+    height: 12vh;
+    background-color: #ff0000;
+}
