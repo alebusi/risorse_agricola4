@@ -5,7 +5,7 @@ function myfunc(id,i,ind) {
   tess[ind]=0;
   v=tess[ind];
   document.getElementById(id).innerHTML = v;
-  var suona = new Audio('success.wav');
+  var suona = new Audio('togli.mp3');
   suona.play();
 }
 
@@ -19,6 +19,10 @@ function myfunc2(id,i,ind) {
   v=tess[ind];
   document.getElementById("legno3").innerHTML = tess[0];
   document.getElementById("argilla1").innerHTML = tess[1];
+  document.getElementById("canna").innerHTML = tess[2];
+  document.getElementById("legno2").innerHTML = tess[3];
+  document.getElementById("argilla1").innerHTML = tess[4];
+  document.getElementById("cibo").innerHTML = tess[5];  
   var suona = new Audio('success.wav');
   suona.play();
 }
