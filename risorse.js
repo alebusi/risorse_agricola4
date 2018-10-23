@@ -40,12 +40,12 @@ function myfunc2(id,i,ind) {
 function myfunc3(div) {
   if ( tess[6] == 0 )
     {
-    tess[6] == 1;
+    tess[6] = 1;
     div.className = "on";
     }
   else
     {
-    tess[6] == 0;
+    tess[6] = 0;
     div.className = "off";
     }
   var suona = new Audio('success.wav');
