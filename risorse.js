@@ -31,7 +31,7 @@ function myfunc2(id,i,ind) {
   document.getElementById("argilla1").innerHTML = tess[1];
   document.getElementById("canna").innerHTML = tess[2];
   document.getElementById("legno2").innerHTML = tess[3];
-  document.getElementById("argilla1").innerHTML = tess[4];
+  document.getElementById("argilla2").innerHTML = tess[4];
   document.getElementById("cibo").innerHTML = tess[5];  
   var suona = new Audio('success.wav');
   suona.play();
