@@ -12,6 +12,10 @@
     font-weight: bold;
 }
 
+#cibo {
+    color: blue;
+}
+
 .button {
     position: fixed;
     width: 6vw;
@@ -19,4 +23,13 @@
     top: 44vh;
     height: 12vh;
     background-color: #ff0000;
+}
+
+.buttonAgg {
+    position: fixed;
+    width: 6vw;
+    left: 90vw;
+    top: 80vh;
+    height: 12vh;
+    background-color: #000000;
 }
