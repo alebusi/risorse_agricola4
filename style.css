@@ -25,11 +25,20 @@
     background-color: #ff0000;
 }
 
-.buttonAgg {
+.off {
     position: fixed;
     width: 6vw;
     left: 90vw;
     top: 80vh;
     height: 12vh;
     background-color: #000000;
+}
+
+.on {
+    position: fixed;
+    width: 6vw;
+    left: 90vw;
+    top: 80vh;
+    height: 12vh;
+    background-color: yellow;
 }
