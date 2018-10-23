@@ -5,11 +5,9 @@ function myfunc(id,i,ind) {
   tess[ind]=0;
   v=tess[ind];
   document.getElementById(id).innerHTML = v;
-  if (i == 1) 
-    var suona = new Audio('success.wav');
-    suona.play();
-    }
-  }
+  var suona = new Audio('success.wav');
+  suona.play();
+}
 
 function myfunc2(id,i,ind) {
   tess[0]+=3;
@@ -21,8 +19,6 @@ function myfunc2(id,i,ind) {
   v=tess[ind];
   document.getElementById("legno3").innerHTML = tess[0];
   document.getElementById("argilla1").innerHTML = tess[1];
-  if (i == 1) 
-    var suona2 = new Audio('success.wav');
-    suona2.play();
-    }
-  }
+  var suona = new Audio('success.wav');
+  suona.play();
+}
