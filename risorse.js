@@ -13,6 +13,7 @@ function myfunc(id,i,ind) {
   else
     {
     tess[ind]+=1;
+    v=tess[ind];
     document.getElementById(id).innerHTML = v;
     var suona = new Audio('success.wav');
     suona.play();
