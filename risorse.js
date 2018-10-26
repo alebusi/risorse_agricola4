@@ -1,8 +1,9 @@
 var tess = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+var cambio = 0;
 /*var success = new Audio('success.wav');*/
 
 function myfunc(id,i,ind) {
-  if (tess[6] == 0)
+  if (cambio == 0)
     {
     tess[ind]=0;
     v=tess[ind];
@@ -27,6 +28,8 @@ function myfunc2(id,i,ind) {
   tess[3]+=2;
   tess[4]+=1;
   tess[5]+=1;
+  tess[6]+=1;
+  tess[7]+=1;
   v=tess[ind];
   document.getElementById("legno3").innerHTML = tess[0];
   document.getElementById("argilla1").innerHTML = tess[1];
@@ -34,21 +37,29 @@ function myfunc2(id,i,ind) {
   document.getElementById("legno2").innerHTML = tess[3];
   document.getElementById("argilla2").innerHTML = tess[4];
   document.getElementById("cibo").innerHTML = tess[5];  
+  document.getElementById("pietra1").innerHTML = tess[6];
+  document.getElementById("pietra2").innerHTML = tess[7];  
   var suona = new Audio('success.wav');
   suona.play();
 }
 
 function myfunc3(div) {
-  if ( tess[6] == 0 )
+  cambio+=1;
+  if ( cambio > 2 )
     {
-    tess[6] = 1;
-    div.className = "on";
+    cambio = 0;
     }
-  else
-    {
-    tess[6] = 0;
-    div.className = "off";
-    }
+  switch(cambio) {
+    case 0:
+        div.className = "zero";
+        break;
+    case 1:
+        div.className = "uno";
+        break;
+    case 2:
+        div.className = "due";
+        break;
+  }
   var suona = new Audio('success.wav');
   suona.play();
 }
