@@ -5,7 +5,7 @@
 
 .risorsa {
     display: inline-block;
-    width: 30vw;
+    width: 22vw;
     padding: 5vh 0;
     text-align: center;
     font-size: 30vh;
@@ -13,8 +13,18 @@
     cursor: default;
 }
 
+.risorsa:hover {background-color: #ffcc66;}
+
+#argilla,argilla2 {
+    color: red;
+}
+
+#legno3,legno2 {
+    color: maroon;
+}
+
 #cibo {
-    color: blue;
+    color: green;
 }
 
 .button {
