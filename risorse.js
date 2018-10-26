@@ -5,6 +5,7 @@ var cambio = 0;
 function myfunc(id,i,ind) {
   if (cambio == 0)
     {
+    document.getElementById(id).className = "risorsa";
     tess[ind]=0;
     document.getElementById(id).innerHTML = tess[ind];
     var suona = new Audio('togli.mp3');
@@ -49,7 +50,7 @@ function myfunc2(id,i,ind) {
 
 function myfunc3(div) {
   cambio+=1;
-  if ( cambio > 2 )
+  if ( cambio > 1 )
     {
     cambio = 0;
     }
