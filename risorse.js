@@ -11,13 +11,17 @@ function myfunc(id,i,ind) {
     var suona = new Audio('togli.mp3');
     suona.play();
     }
-  else
+  else if (cambio == 1)
     {
     tess[ind]+=1;
     v=tess[ind];
     document.getElementById(id).innerHTML = v;
     var suona = new Audio('success.wav');
     suona.play();
+    }
+  else
+    {
+    document.getElementById(id).className = "risorsa";
     }
 }
 
