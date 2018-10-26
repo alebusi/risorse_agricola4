@@ -22,6 +22,7 @@ function myfunc(id,i,ind) {
   else
     {
     document.getElementById(id).className = "risorsa";
+    tess[ind]=0;
     }
 }
 
