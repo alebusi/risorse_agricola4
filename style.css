@@ -31,10 +31,13 @@
     position: fixed;
     width: 6vw;
     left: 90vw;
-    top: 44vh;
-    height: 12vh;
+    top: 10vh;
+    height: 60vh;
     background-color: #ff0000;
+    opacity: 0.4;
 }
+
+.button:hover {opacity: 1;}
 
 .off {
     position: fixed;
