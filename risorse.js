@@ -6,16 +6,14 @@ function myfunc(id,i,ind) {
   if (cambio == 0)
     {
     tess[ind]=0;
-    v=tess[ind];
-    document.getElementById(id).innerHTML = v;
+    document.getElementById(id).innerHTML = tess[ind];
     var suona = new Audio('togli.mp3');
     suona.play();
     }
   else if (cambio == 1)
     {
     tess[ind]+=1;
-    v=tess[ind];
-    document.getElementById(id).innerHTML = v;
+    document.getElementById(id).innerHTML = tess[ind];
     var suona = new Audio('success.wav');
     suona.play();
     }
@@ -23,6 +21,7 @@ function myfunc(id,i,ind) {
     {
     document.getElementById(id).className = "risorsa";
     tess[ind]=0;
+    document.getElementById(id).innerHTML = tess[ind];
     }
 }
 
