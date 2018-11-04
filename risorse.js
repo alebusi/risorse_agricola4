@@ -1,4 +1,4 @@
-var tess = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+var tess = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var cambio = 0;
 /*var success = new Audio('success.wav');*/
 
@@ -35,6 +35,9 @@ function myfunc2(id,i,ind) {
   tess[5]+=1;
   tess[6]+=1;
   tess[7]+=1;
+  tess[8]+=1;
+  tess[9]+=1;
+  tess[10]+=1;
   v=tess[ind];
   document.getElementById("legno3").innerHTML = tess[0];
   document.getElementById("argilla1").innerHTML = tess[1];
@@ -43,7 +46,10 @@ function myfunc2(id,i,ind) {
   document.getElementById("argilla2").innerHTML = tess[4];
   document.getElementById("cibo").innerHTML = tess[5];  
   document.getElementById("pietra1").innerHTML = tess[6];
-  document.getElementById("pietra2").innerHTML = tess[7];  
+  document.getElementById("pietra2").innerHTML = tess[7];
+  document.getElementById("pecora").innerHTML = tess[8];
+  document.getElementById("cinghiale").innerHTML = tess[9];
+  document.getElementById("bestiame").innerHTML = tess[10];
   var suona = new Audio('success.wav');
   suona.play();
 }
