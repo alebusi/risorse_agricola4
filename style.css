@@ -36,6 +36,10 @@
 }
 
 #cibo {
+    color: #19c700;
+}
+
+#pecora, #cinghiale, #bestiame {
     color: blue;
 }
 
