@@ -33,11 +33,9 @@
     padding: 3vh 0;
     text-align: center;
     font-family: Arial, Sans-Serif;
-    font-size: 23vh;
+    font-size: 11vh;
     font-weight: bold;
     cursor: default;
-    color: white;
-    background-color: blue;
 }
 
 #argilla1, #argilla2 {
