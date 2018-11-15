@@ -27,6 +27,17 @@
     opacity: 0;
 }
 
+.timer {
+    display: inline-block;
+    width: 22vw;
+    padding: 9vh 0;
+    text-align: center;
+    font-family: Arial, Sans-Serif;
+    font-size: 11vh;
+    font-weight: bold;
+    cursor: default;
+}
+
 #argilla1, #argilla2 {
     color: red;
 }
