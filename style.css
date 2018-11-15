@@ -36,6 +36,7 @@
     font-size: 11vh;
     font-weight: bold;
     cursor: default;
+    background-color: lightblue;
 }
 
 #argilla1, #argilla2 {
