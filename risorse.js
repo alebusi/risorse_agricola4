@@ -1,5 +1,6 @@
 var tess = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var cambio = 0;
+var secondi = 0;
 /*var success = new Audio('success.wav');*/
 
 function myfunc(id,i,ind) {
@@ -50,6 +51,10 @@ function myfunc2(id,i,ind) {
   document.getElementById("pecora").innerHTML = tess[8];
   document.getElementById("cinghiale").innerHTML = tess[9];
   document.getElementById("bestiame").innerHTML = tess[10];
+  clearInterval(myVar);
+  secondi=0;
+  e = document.getElementById("tempo");
+  var myVar = setInterval(function() { e.innerHTML = ++secondi; }, 1000);
   var suona = new Audio('success.wav');
   suona.play();
 }
