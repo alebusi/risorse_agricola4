@@ -46,8 +46,15 @@
     color: maroon;
 }
 
+#canna {
+    color: #daa520;
+}
+
+/* 8a2be2,  */
+
 #cibo {
-    color: #19c700;
+    /* color: #19c700;*/
+    color: #008000;
 }
 
 #pecora, #cinghiale, #bestiame {
