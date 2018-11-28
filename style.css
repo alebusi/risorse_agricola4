@@ -5,7 +5,7 @@
 
 .risorsa {
     display: inline-block;
-    width: 22vw;
+    width: 18vw;
     padding: 3vh 0;
     text-align: center;
     font-family: Arial, Sans-Serif;
@@ -18,7 +18,7 @@
 
 .trasparente {
     display: inline-block;
-    width: 22vw;
+    width: 18vw;
     padding: 3vh 0;
     text-align: center;
     font-size: 23vh;
@@ -42,7 +42,7 @@
     color: red;
 }
 
-#legno3, #legno2 {
+#legno3, #legno2, #legno1 {
     color: maroon;
 }
 
@@ -52,7 +52,7 @@
 
 /* 8a2be2,  */
 
-#cibo {
+#cibo, #cibo2 {
     /* color: #19c700;*/
     color: #008000;
 }
