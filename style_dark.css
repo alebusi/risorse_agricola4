@@ -10,7 +10,7 @@ body {
 
 .risorsa {
     display: inline-block;
-    width: 22vw;
+    width: 18vw;
     padding: 3vh 0;
     text-align: center;
     font-family: Arial, Sans-Serif;
@@ -19,11 +19,11 @@ body {
     cursor: default;
 }
 
-.risorsa:hover {background-color: #101000;}
+.risorsa:hover {background-color: #ffcc66;}
 
 .trasparente {
     display: inline-block;
-    width: 22vw;
+    width: 18vw;
     padding: 3vh 0;
     text-align: center;
     font-size: 23vh;
@@ -44,35 +44,35 @@ body {
 }
 
 #argilla1, #argilla2 {
-    color: #FF1F35;
+    color: red;
 }
 
-#legno3, #legno2 {
-    color: white;
+#legno3, #legno2, #legno1 {
+    color: maroon;
 }
 
 #canna {
-    color: #FFFF35;
+    color: #daa520;
 }
 
 /* 8a2be2,  */
 
-#cibo {
+#cibo, #cibo2 {
     /* color: #19c700;*/
-    color: #00FF00;
+    color: #008000;
 }
 
 #pecora, #cinghiale, #bestiame {
-    color: orange;
+    color: blue;
 }
 
 .button {
     position: fixed;
-    width: 6vw;
-    left: 90vw;
-    top: 10vh;
-    height: 60vh;
-    background-color: #ffffff;
+    width: 4vw;
+    left: 92vw;
+    top: 30vh;
+    height: 24vh;
+    background-color: #ff0000;
     opacity: 0.4;
 }
 
@@ -80,18 +80,18 @@ body {
 
 .zero {
     position: fixed;
-    width: 6vw;
-    left: 90vw;
-    top: 80vh;
+    width: 4vw;
+    left: 92vw;
+    top: 54vh;
     height: 12vh;
     background-color: #000000;
 }
 
 .uno {
     position: fixed;
-    width: 6vw;
-    left: 90vw;
-    top: 80vh;
+    width: 4vw;
+    left: 92vw;
+    top: 54vh;
     height: 12vh;
     background-color: yellow;
 }
