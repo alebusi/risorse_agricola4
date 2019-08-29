@@ -86,3 +86,12 @@ function myfunc3(div) {
   var suona = new Audio('success.wav');
   suona.play();
 }
+
+function CambiaStile(sheet) {
+        if (document.getElementById('pagestyle').getAttribute('href')=="style.css") {
+           document.getElementById('pagestyle').setAttribute("href",sheet);
+        }
+        else {
+           document.getElementById('pagestyle').setAttribute("href","style.css");
+        }
+}
